@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            gameOverController.ShowGameOver("¡Perdiste! No toques los pilares");
+            gameOverController.ShowGameOver("¡Perdiste!");
             Time.timeScale = 0f;
         }
     }
